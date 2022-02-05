@@ -1,0 +1,78 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,600,900,700italic&display=swap");
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+body {
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	margin-left: 50px;
+	margin-right: 20px;
+}
+h1 {
+	font-family: "Raleway", sans-serif;
+	font-size: 50px;
+	font-weight: 900;
+	color: blueviolet;
+	text-align: center;
+	margin-top: 10px;
+	text-shadow: 10px 10px 30px purple;
+	margin-bottom: 60px;
+}
+li {
+	font-size: 23px;
+	margin-left: 150px;
+	margin-bottom: 5px;
+	color: darkblue;
+}
+.list {
+	margin-bottom: 60px;
+}
+
+.paragraph {
+	padding: 1%;
+	height: 150px;
+	overflow: auto;
+	margin: 20px 50px;
+}
+p {
+	margin: 20px 250px;
+	padding-right: 40px;
+	text-align: justify;
+}
+h2 {
+	font-size: 40px;
+	font-weight: 700;
+	font-style: italic;
+	text-align: center;
+	color: purple;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.center-img {
+	display: block;
+	margin: 30px auto 80px;
+}
+h3 {
+	font-size: 25px;
+	font-weight: 600;
+	margin-top: 20px;
+	text-align: center;
+	color: darkslateblue;
+}
+
+span {
+	display: inline-block;
+	/* margin-top: 100px;
+	margin-bottom: 30px; */
+	margin: 0 400px 50px;
+}
+.link {
+	text-decoration: underline;
+	font-size: 22px;
+}
+[class*="text-16"] {
+	display: none;
+}
