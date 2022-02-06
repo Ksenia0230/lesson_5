@@ -33,14 +33,17 @@ li {
 
 .paragraph {
 	overflow: auto;
-	max-height: 300px;
+	/* max-height: 300px; */
 	max-width: 80%;
 	margin: 0px auto;
 }
 p {
-	margin-bottom: 50px;
-	/* max-width: 50%; */
-	padding-right: 40px;
+	/* margin-bottom: 30px; */
+	/* margin-left: 20px;
+	margin-right: 20px; */
+	margin: 0 auto 30px;
+	max-width: 80%;
+	/* padding-right: 40px; */
 	text-align: justify;
 }
 h2 {
@@ -55,21 +58,23 @@ h2 {
 .center-img {
 	display: block;
 	max-width: 50%;
-	margin: 0px auto;
+	margin: 0px auto 50px;
 }
 h3 {
 	font-size: 25px;
 	font-weight: 600;
 	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	text-align: center;
 	color: darkslateblue;
 }
 
 span {
-	text-align: center;
-	/* display: inline-block;
-	max-width: 50%;
+	/* text-align: center; */
+	display: inline-block;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	/* max-width: 50%;
 	margin: 0 auto; */
 }
 .link {
