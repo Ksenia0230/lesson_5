@@ -29,8 +29,16 @@ li {
 	margin-bottom: 60px;
 }
 
-.paragraph {
+.paragraph-1 {
 	overflow: auto;
+	max-width: 80%;
+	margin: 0px auto;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+.paragraph-2 {
+	padding-top: 10px;
+	overflow: scroll;
 	max-width: 80%;
 	margin: 0px auto;
 }
