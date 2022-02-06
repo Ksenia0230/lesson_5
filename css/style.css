@@ -8,8 +8,8 @@
 body {
 	font-family: "Raleway", sans-serif;
 	font-size: 20px;
-	margin-left: 50px;
-	margin-right: 20px;
+	/* margin-left: 50px;
+	margin-right: 20px; */
 }
 h1 {
 	font-family: "Raleway", sans-serif;
@@ -23,7 +23,7 @@ h1 {
 }
 li {
 	font-size: 23px;
-	margin-left: 150px;
+	margin-left: 50px;
 	margin-bottom: 5px;
 	color: darkblue;
 }
@@ -33,12 +33,13 @@ li {
 
 .paragraph {
 	overflow: auto;
-	max-width: 1000px;
+	max-height: 300px;
+	max-width: 80%;
 	margin: 0px auto;
 }
 p {
-	margin: 0px auto;
-	max-width: 50%;
+	margin-bottom: 50px;
+	/* max-width: 50%; */
 	padding-right: 40px;
 	text-align: justify;
 }
@@ -60,14 +61,16 @@ h3 {
 	font-size: 25px;
 	font-weight: 600;
 	margin-top: 20px;
+	margin-bottom: 50px;
 	text-align: center;
 	color: darkslateblue;
 }
 
 span {
-	display: inline-block;
+	text-align: center;
+	/* display: inline-block;
 	max-width: 50%;
-	margin: 0 auto;
+	margin: 0 auto; */
 }
 .link {
 	text-decoration: underline;
