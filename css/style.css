@@ -82,3 +82,16 @@ span {
 [class*="text-16"] {
 	display: none;
 }
+
+.header {
+	width: 810;
+	height: 210;
+}
+.link-2 {
+	text-decoration: underline;
+	font-size: 30px;
+	color: red;
+	display: block;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
