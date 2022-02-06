@@ -32,13 +32,13 @@ li {
 }
 
 .paragraph {
-	padding: 1%;
-	height: 150px;
 	overflow: auto;
-	margin: 20px 50px;
+	max-width: 1000px;
+	margin: 0px auto;
 }
 p {
-	margin: 20px 250px;
+	margin: 0px auto;
+	max-width: 1000px;
 	padding-right: 40px;
 	text-align: justify;
 }
